@@ -1,0 +1,67 @@
+/* ========== IMPORTS ========== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+/* ========== RESET ========== */
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+/* ========== VARIAVEIS ========== */
+/* ----- COLORS ----- */
+/* ----- BORDERS ------ */
+/* ----- BOX-SHADOW ------ */
+/* ========== BASE ========== */
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+html::-webkit-scrollbar-thumb {
+  background: crimson;
+  border-radius: 0.5rem;
+}
+
+body {
+  background-color: #0d0d0d;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 1000;
+  align-items: flex-end;
+}
+.navbar a {
+  padding: 2rem;
+  font-size: 2rem;
+  background: #1a1a1a;
+  flex: 1;
+  color: #fff;
+}
+.navbar a svg {
+  color: crimson;
+  padding-right: 0.5rem;
+}
+.navbar a:hover {
+  background: crimson;
+}
+
+/* ========== HOME ========== */
+
+/*# sourceMappingURL=style.css.map */
