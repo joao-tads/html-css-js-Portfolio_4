@@ -8,14 +8,49 @@
 
     <!-- style -->
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <!-- title -->
-    <title>Portfólio</title>
+    <title>Home</title>
   </head>
   <body>
-    <h1>Olá Mundo</h1>
-    <i class="fab fa-facebook"></i>
-    <!-- scripts -->
-    <script src="./src/js/script.js"></script>
-    <script src="./assets/icons/all.min.js"></script>
+    <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i> <span>Início</span></a>
+      <a href="./pages/about.html"
+        ><i class="fas fa-user"></i> <span>Sobre</span></a
+      >
+      <a href="./pages/portfolio.html"
+        ><i class="fas fa-briefcase"></i> <span>Portfólio</span></a
+      >
+      <a href="./pages/blogs.html"
+        ><i class="fas fa-blog"></i> <span>Blogs</span></a
+      >
+      <a href="./pages/contact.html"
+        ><i class="fas fa-address-book"></i> <span>Contatos</span></a
+      >
+    </nav>
+    <!-- navbar -->
+
+    <section class="home">
+      <div class="image">
+        <img src="./src/img/user.jpg" alt="User" />
+      </div>
+      <!-- image -->
+      <div class="content">
+        <h3>Eu sou Kylie Reid</h3>
+        <span>Desenvolvedor Greg Lawrence</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          doloribus cupiditate consequatur porro ducimus nam praesentium
+          reiciendis ullam ipsum ex animi quasi hic molestiae libero quos sequi,
+          nulla velit sapiente.
+        </p>
+        <a href="#" class="btn">Sobre mim <i class="fas fa-user"></i></a>
+      </div>
+      <!-- content -->
+    </section>
   </body>
 </html>
